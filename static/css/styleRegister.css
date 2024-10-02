@@ -1,0 +1,11 @@
+h1 {
+    text-align: center;
+}
+
+button {
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 10px;
+}
