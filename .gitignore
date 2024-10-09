@@ -9,3 +9,5 @@
 .bashrc
 .wget-hsts
 .local
+keys.py
+__pycache__/

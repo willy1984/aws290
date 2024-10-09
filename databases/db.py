@@ -10,6 +10,7 @@ try:
         user = db_user,
         password = db_password
     )
+    print("Succefull connection to DB")
 except Exception as err:
     print("Error:", err)
     connection = None
@@ -21,8 +22,5 @@ def add_user(id, name, lastname, birthday):
         cursor.execute(instruction_sql)
         connection.commit()
         print("User added")
-        #print(connection)
     except Exception as err:
         print("Error:", err)
-
-add_user()
